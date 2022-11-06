@@ -2,14 +2,8 @@ import { extname } from "node:path";
 import { unlink, promises } from "node:fs";
 import { errors } from "../contants/error";
 
-export function checkSameExtension(
-  files: Express.Multer.File[] | undefined,
-  extensions: string[]
-): boolean {
+export function checkSameExtension(files: Express.Multer.File[], extensions: string[]): boolean {
   let hasDuplicated = false;
-  if (!files) {
-    return true;
-  }
 
   extensions.forEach((extension) => {
     if (hasDuplicated) {
