@@ -7,6 +7,7 @@ Um sistema simples para realizar a assinatura de holerites.
 
 ## Pré requisitos
 Tenha instalado o nodejs versão 18.
+Tenha as seguintes extensões em seu VSCode: eslint, prettier e editorconfig.
 
 ## Instruções
 Clone o projeto:
