@@ -30,14 +30,18 @@ Com yarn:
 
 
 # Objetivos (MVP)
-- [ ] - Realizar o upload do PDF.
-- [ ] - Realizar o upload da assinatura.
-- [ ] - Realizar a inserção do dia da assinatura no PDF.
-- [ ] - Realizar a inserção da assinatura no PDF.
-- [ ] - Retornar o PDF para o usuário.
+- [x] - Realizar o upload do PDF.
+- [x] - Realizar o upload da assinatura.
+- [x] - Realizar a inserção do dia da assinatura no PDF.
+- [x] - Realizar a inserção da assinatura no PDF.
+- [x] - Retornar o PDF para o usuário.
 
 
 # Objetivos versão 1
+- [ ] - Refatorar o sistema
+- [ ] - Adicionar testes automatizados o sistema
+- [ ] - Melhorar o readme adicionando exemplos de uso
+- [ ] - Adicionar o swagger ou similares para documentar a API.
 - [ ] - CRUD de usuários.
 - [ ] - Sistema de login.
 
